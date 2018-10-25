@@ -5,6 +5,7 @@ def my_collect(array)
   collection = []
   while i < array.length
     yield array[i]
+    array[i].upcase
     i += 1
   end
   collection
